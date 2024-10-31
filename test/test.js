@@ -12,3 +12,9 @@ describe('0 and 1', function() {
       assert.strictEqual(main.factorial(1), 1);
     });
 });
+
+describe("negative", function() {
+    it('should return undefined', function() {
+        assert.strictEqual(main.factorial(-1), undefined);
+      });
+})
